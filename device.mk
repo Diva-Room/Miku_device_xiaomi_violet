@@ -426,4 +426,11 @@ PRODUCT_PACKAGES += \
     libnl \
     libqdMetaData \
     libqdMetaData.system \
-    libqdMetaData.vendor
+    libqdMetaData.vendor \
+    libwfdaac_proprietary
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
+
+# Wallpapers
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
