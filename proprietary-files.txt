@@ -79,7 +79,17 @@ vendor/lib/libsurround_3mic_proc.so|1d425b4b0d89f68e0f0112e8f2f73b1cd5b6dea2
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/framework/audiosphere.jar|db76dab5f44013265df54ae41073184d9a0423e9
 vendor/lib64/soundfx/libasphere.so|7d01becf38d808b232aef88025e4dd69839b788f
-vendor/lib/soundfx/libasphere.so|44cd20e13920888b29d3b2e4bb0b2559a746bf8f
+system_ext/framework/audiosphere.jar|9c28317f12b93a6d881c80a991ff24716fce4a12
+vendor/lib64/soundfx/libasphere.so|b9296f601776e631be0f347f8f10d26689103d12
+vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
+vendor/lib/soundfx/libqcbassboost.so|4405bcc8cbe9e70032235fe5a6895d681a25762d
+vendor/lib/soundfx/libqcreverb.so|e5a5d94be9967d4a8b807a7e5a65f25df027bcea
+vendor/lib/soundfx/libqcvirt.so|216404b033697716ed8453b9f31659a7cdbacc97
+vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
+vendor/lib64/soundfx/libqcbassboost.so|3bef018756b7890729940f69265269644bb943f3
+vendor/lib64/soundfx/libqcreverb.so|37e45f698e5667331440c5ba210ba9ab443d8851
+vendor/lib64/soundfx/libqcvirt.so|fdb442364c618a6d933bfa9cec9ff7495695a4ef
+vendor/lib64/soundfx/libshoebox.so|37c60f9b0c8d451e118c351215f8234d7f6b82af
 
 # Audio (speaker amplifier) firmware
 vendor/firmware/tas2563_uCDSP.bin
