@@ -20,6 +20,10 @@ ro.sf.blurs_are_expensive=1
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 # Graphics
 debug.renderengine.backend=skiaglthreaded
 debug.sf.latch_unsignaled=1
