@@ -158,6 +158,11 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
+# Config Store
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.0-service \
+    android.hardware.configstore@1.1-service 
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
