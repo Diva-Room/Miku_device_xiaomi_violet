@@ -17,19 +17,20 @@
 -->
 <resources>
     <!-- Ambient settings -->
-    <string name="ambient_display_title">环境显示</string>
-    <string name="ambient_enable">打开环境显示</string>
+    <string name="ambient_display_title">什么时候显示通知？</string>
+    <string name="ambient_enable">动态显示！ON！</string>
 
     <!-- Device specific settings -->
     <string name="device_settings_app_name">高级设置</string>
 
     <!-- Dirac settings -->
-    <string name="dirac_title">使用米音提升音质</string>
-    <string name="dirac_summary">米音</string>
+    <string name="dirac_title">Mi音</string>
+    <string name="dirac_summary">使用Mi音来提升（降低？）音质</string>
+    <string name="dirac_enable">启用Mi音~</string>
     <string name="dirac_headset_title">耳机类型设置</string>
-    <string name="dirac_preset_title">请选择预设效果</string>
+    <string name="dirac_preset_title">预设效果！K-ON！</string>
     <!-- Dirac settings: Headset types -->
-    <string name="dirac_headset_default">无</string>
+    <string name="dirac_headset_default">我不要！</string>
     <string name="dirac_headset_earbuds">灵动耳塞式</string>
     <string name="dirac_headset_in_ear_2013">灵悦入耳式</string>
     <string name="dirac_headset_piston_1">小米活塞1</string>
@@ -65,19 +66,19 @@
     <string name="dirac_preset_metal">金属</string>
 
     <!-- Hand wave gesture -->
-    <string name="hand_wave_gesture_title">挥手</string>
-    <string name="hand_wave_gesture_summary">挥手时显示通知</string>
+    <string name="hand_wave_gesture_title">对着屏幕挥手的时候</string>
+    <string name="hand_wave_gesture_summary">对着屏幕挥一下手就可以显示通知！That is Magic！</string>
 
     <!-- Pick-up gesture -->
-    <string name="pick_up_gesture_title">抬手</string>
-    <string name="pick_up_gesture_summary">抬手时显示通知</string>
+    <string name="pick_up_gesture_title">拿起手机的时候</string>
+    <string name="pick_up_gesture_summary">拿起手机的时候就能显示通知，感觉已经是烂大街的功能了呢</string>
     <!-- Pickup sensor -->
-    <string name="pickup_sensor_title">抬手传感器</string>
+    <string name="pickup_sensor_title">抬手传感器Desu</string>
 
     <!-- Pocket gesture -->
-    <string name="pocket_gesture_title">口袋</string>
-    <string name="pocket_gesture_summary">从口袋取出时显示通知</string>
+    <string name="pocket_gesture_title">从口袋里拿出来的时候</string>
+    <string name="pocket_gesture_summary">从口袋里把手机拿出来就可以显示通知呢，赞！</string>
 
     <!-- Proximity sensor -->
-    <string name="proximity_sensor_title">距离传感器</string>
+    <string name="proximity_sensor_title">距离传感器Desu</string>
 </resources>
