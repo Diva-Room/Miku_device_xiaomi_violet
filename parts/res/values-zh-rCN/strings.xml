@@ -16,6 +16,13 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Ambient settings -->
+    <string name="ambient_display_title">环境显示</string>
+    <string name="ambient_enable">打开环境显示</string>
+
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">高级设置</string>
+
     <!-- Dirac settings -->
     <string name="dirac_title">使用米音提升音质</string>
     <string name="dirac_summary">米音</string>
@@ -56,4 +63,21 @@
     <string name="dirac_preset_country">乡村</string>
     <string name="dirac_preset_dance">舞曲</string>
     <string name="dirac_preset_metal">金属</string>
+
+    <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">挥手</string>
+    <string name="hand_wave_gesture_summary">挥手时显示通知</string>
+
+    <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">抬手</string>
+    <string name="pick_up_gesture_summary">抬手时显示通知</string>
+    <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">抬手传感器</string>
+
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">口袋</string>
+    <string name="pocket_gesture_summary">从口袋取出时显示通知</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">距离传感器</string>
 </resources>
