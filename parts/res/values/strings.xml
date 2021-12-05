@@ -16,7 +16,13 @@
 -->
 <resources>
     <!-- Ambient settings -->
+    <string name="ambient_display_title">Ambient display</string>
     <string name="ambient_enable">Use ambient display</string>
+    <string name="ambient_display_always_on_title">Always on</string>
+    <string name="ambient_display_always_on_summary">Show time, notification icons, and other info. Increased battery usage.</string>
+
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">Advanced settings</string>
 
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Sound Enhancer</string>
@@ -49,6 +55,9 @@
     <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
     <string name="dirac_headset_earphone">Mi Earphones</string>
 
+    <!-- Dialog texts -->
+    <string name="dialog_ok">OK</string>
+
     <!-- Dirac settings: Equalizer presets -->
     <string name="dirac_preset_default">Default</string>
     <string name="dirac_preset_rock">Rock</string>
@@ -62,6 +71,28 @@
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
     <string name="dirac_preset_bass_booster">Bass Booster</string>
+
+    <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Hand wave</string>
+    <string name="hand_wave_gesture_summary">Pulse notifications on hand wave</string>
+
+    <!-- Help texts -->
+    <string name="doze_settings_help_title">Help</string>
+    <string name="doze_settings_help_text">These features use sensor events to launch a doze notification pulse. The chosen sensor is only enabled when the device receives a notification, this helps to reduce battery usage. There is also an option to enable the chosen sensor as soon as the screen turns off, this will cause higher battery usage.</string>
+
+    <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Pick-up</string>
+    <string name="pick_up_gesture_summary">Pulse notifications on pick-up</string>
+
+    <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Pickup sensor</string>
+
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">Pocket</string>
+    <string name="pocket_gesture_summary">Pulse notifications on removal from pocket</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Proximity sensor</string>
 
      <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Dirac sound</string>
