@@ -1084,21 +1084,10 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 
-# Thermal
-vendor/lib64/libthermalclient.so
-
-# Thermal Engine
-vendor/bin/thermal-engine
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine-high.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine-pubgmhd.conf
-vendor/etc/thermal-engine-sgame.conf
-vendor/etc/thermal-engine-studio.conf
-vendor/etc/thermal-engine-tgame.conf
-vendor/lib64/libthermalfeature.so
+# Thermal - from LA.UM.9.1.r1-10900-SMxxx0.0
+vendor/bin/thermal-engine|c9a3dd7aad29897438e474691843a39a5cb90041
+-vendor/lib/libthermalclient.so|647d57a7fd71fb3494d47f0d30ace36d45ba54eb
+-vendor/lib64/libthermalclient.so|2fe5d8e4d3413795626a4c4fb6f0e4b6bf775ebe
 
 # Thermal (init script) - from LA.UM.8.9.r1-07100-SM6xx.0
 vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48
