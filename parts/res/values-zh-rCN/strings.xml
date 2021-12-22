@@ -81,4 +81,7 @@
 
     <!-- Proximity sensor -->
     <string name="proximity_sensor_title">距离传感器Desu</string>
+
+    <!-- FPS Counter -->
+    <string name="fps_info_title">FPS 显示</string>
 </resources>
