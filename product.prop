@@ -21,6 +21,7 @@ ro.sf.blurs_are_expensive=1
 persist.sys.fuse.passthrough.enable=true
 
 # Graphics
+debug.renderengine.backend=skiaglthreaded
 debug.sf.latch_unsignaled=1
 persist.demo.hdmirotationlock=false
 debug.sdm.support_writeback=1
