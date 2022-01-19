@@ -4,6 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Maintaier
+MIKU_MASTER := Undying
+
+# MikuUI OFFICIAL
+TARGET_MIKU_BUILD_VARIANT := OFFICIAL
+
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
