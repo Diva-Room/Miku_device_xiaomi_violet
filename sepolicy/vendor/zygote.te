@@ -1,0 +1,1 @@
+get_prop(zygote, qemu_sf_lcd_density_prop)

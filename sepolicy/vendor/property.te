@@ -1,14 +1,11 @@
-# Fingerprint
-type vendor_fp_prop, property_type;
-
 # Init
-type vendor_device_prop, property_type;
+vendor_internal_prop(vendor_device_prop)
 
 # Power
-type power_prop, property_type;
+vendor_internal_prop(vendor_power_prop)
 
 # Thermal
-type thermal_normal_prop, property_type;
+vendor_internal_prop(vendor_thermal_normal_prop)
 
-# Touchfeature
-type vendor_touchfeature_prop, property_type;
+# Dirac
+vendor_internal_prop(vendor_dirac_prop)
