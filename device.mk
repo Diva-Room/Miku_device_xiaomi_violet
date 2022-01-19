@@ -239,6 +239,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
+    
+# Define board
+PRODUCT_BOARD_PLATFORM := sm6150
+PRODUCT_USES_QCOM_HARDWARE := true   
 
 # Input
 PRODUCT_COPY_FILES += \
