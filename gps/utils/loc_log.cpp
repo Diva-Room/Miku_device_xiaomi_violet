@@ -211,7 +211,7 @@ RETURN VALUE
    N/A
 
 ===========================================================================*/
-void log_buffer_insert(char *str, unsigned long /*buf_size*/, int level)
+void log_buffer_insert(char *str, unsigned long buf_size, int level)
 {
     timespec tv;
     clock_gettime(CLOCK_BOOTTIME, &tv);
