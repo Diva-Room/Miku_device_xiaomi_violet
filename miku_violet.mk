@@ -1,17 +1,17 @@
 #
 # Copyright (C) 2019-2022 The LineageOS Project
-#
+# Copyright (C) 2021-2022 Miku UI
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Miku UI stuff.
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_violet
+PRODUCT_NAME := miku_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
