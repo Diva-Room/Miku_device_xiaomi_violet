@@ -1,5 +1,12 @@
+# Audio
+ro.qc.sdk.audio.fluencetype=none
+ro.qc.sdk.audio.ssr=false
+
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.android.camera2,org.lineageos.snap
 
 # DPM
 persist.vendor.dpm.feature=11
+
+# Skia
+renderthread.skia.reduceopstasksplitting=true
