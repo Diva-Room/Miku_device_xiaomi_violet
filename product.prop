@@ -61,10 +61,6 @@ ril.subscription.types=RUIM
 # Time
 persist.vendor.delta_time.enable=true
 
-# Wireless display
-persist.debug.wfd.enable=1
-persist.sys.wfd.virtual=0
-
 # Touch improvements
 touch.pressure.scale=0.001 
 persist.sys.ui.hw=1 
