@@ -250,6 +250,11 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# IFAA
+PRODUCT_PACKAGES += \
+    IFAAService \
+    org.ifaa.android.manager
+
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
