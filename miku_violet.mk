@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Maintaier
+# Maintainer
 MIKU_MASTER := AmeChan
 
 # MikuUI OFFICIAL
