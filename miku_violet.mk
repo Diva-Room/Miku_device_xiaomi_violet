@@ -5,7 +5,7 @@
 #
 
 # Maintaier
-MIKU_MASTER := Undying
+MIKU_MASTER := AmeChan
 
 # MikuUI OFFICIAL
 TARGET_MIKU_BUILD_VARIANT := OFFICIAL
