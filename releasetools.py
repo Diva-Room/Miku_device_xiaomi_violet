@@ -38,7 +38,7 @@ def IncrementalOTA_InstallEnd(info):
   return
 
 def AddBasebandAssertion(info, input_zip):
-  android_info = input_zip.read("OTA/android-info.txt")
+  android_info = input_zip.read("OTA/android-info.txt").decode('UTF-8')
   variants = []
   for variant in ('in', 'cn', 'eea'):
     result = re.search(r'require\s+version-{}\s*=\s*(\S+)'.format(variant), android_info)
