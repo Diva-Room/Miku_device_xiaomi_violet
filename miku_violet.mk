@@ -7,9 +7,6 @@
 # Maintainer
 MIKU_MASTER := AmeChan
 
-# MikuUI OFFICIAL
-TARGET_MIKU_BUILD_VARIANT := OFFICIAL
-
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
