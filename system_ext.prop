@@ -25,5 +25,9 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.andr
 # DPM
 persist.vendor.dpm.feature=11
 
+# Performance mode
+ro.perfmode=true
+ro.perf.cluster1=6
+
 # Skia
 renderthread.skia.reduceopstasksplitting=true
