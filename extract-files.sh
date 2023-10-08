@@ -66,6 +66,9 @@ function blob_fixup() {
         sed -i "s|0x10080|0|g" "${2}"
         sed -i "s|0x1F|0x0|g" "${2}"
     ;;
+    vendor/lib64/mediadrm/libwvdrmengine.so | vendor/lib/mediadrm/libwvdrmengine.so | vendor/lib64/libwvhidl.so)
+        patchelf  --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+    ;;
     esac
 }
 
