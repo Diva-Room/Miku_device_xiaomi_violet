@@ -2,13 +2,13 @@
   { 
     "repository"   : "Miku_vendor_xiaomi_violet",
     "target_path"  : "vendor/xiaomi/violet",
-    "branch"       : "TDA",
+    "branch"       : "Udon",
     "remote"       : "diva"
   },
   {
     "repository"   : "Miku_kernel_xiaomi_violet",
     "target_path"  : "kernel/xiaomi/violet",
-    "branch"       : "TDA",
+    "branch"       : "Udon",
     "remote"       : "diva"
   }
 ]
